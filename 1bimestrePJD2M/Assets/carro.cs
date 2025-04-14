@@ -11,6 +11,7 @@ public class carro
     {
         return nome;
     }
+
     public void setNome(string nome)
     {
         this.nome = nome;
@@ -25,14 +26,30 @@ public class carro
     {
         this.cor = cor;
     }
-    void Start()
+
+    public int setNumero_de_rodas(string numero_de_rodas)
     {
-        
+        return this.numero_de_rodas;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void setPreco(float preco)
     {
-        
+        this.preco = preco;
     }
+
+    public float Preco()
+    {
+        return this.preco;
+    }
+
+    public bool comparepreco(carro carro)
+    {
+        if (this.preco > carro.Preco())
+        {
+            return true;
+        }
+        return false;
+    }
+
+    
 }
