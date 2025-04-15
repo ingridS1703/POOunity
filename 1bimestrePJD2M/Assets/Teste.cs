@@ -10,16 +10,19 @@ public class teste : MonoBehaviour
     {
         fusca.setNome("fusca de pai");
         fusca.setCor("verde");
-        fusca.Atribuirnumero_de_rodas(4);;
-        fusca.AtribuirPreco(2050.90f);
-        Debug.Log("o" + fusca.getnome() + " é " + fusca.setCor() + "tem " + fusca.Numero_de_rodas() + "e custa R$" + fusca.Preco());
+        fusca.setNumero_de_rodas(4);;
+        fusca.setPreco(2050.90f);
+        Debug.Log("o" + fusca.getNome() + " é " + fusca.getCor() + "tem " + fusca.Numero_de_rodas() + "e custa R$" + fusca.Preco());
         
         gol.setNome("gol do falstao");
         gol.setCor("verde");
-        gol.Atribuirnumero_de_rodas(4);;
-        gol.AtribuirPreco(3000.00f);
-        Debug.Log("o" + gol.getnome());
-
+        gol.setNumero_de_rodas(4);;
+        gol.setPreco(3000.00f);
+        Debug.Log("o" + gol.getNome());
+        if (fusca.comparepreco(gol))
+        {
+            
+        }
     }
     
 }

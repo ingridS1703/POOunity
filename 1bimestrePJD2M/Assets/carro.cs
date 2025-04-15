@@ -27,7 +27,12 @@ public class carro
         this.cor = cor;
     }
 
-    public int setNumero_de_rodas(string numero_de_rodas)
+    public void setNumero_de_rodas(int numero_de_rodas)
+    {
+         this.numero_de_rodas = numero_de_rodas;
+    }
+
+    public int Numero_de_rodas()
     {
         return this.numero_de_rodas;
     }
