@@ -1,35 +1,31 @@
 using UnityEngine;
 
-public class inimigo : MonoBehaviour
+public class inimigo : personagem
 {
-    private string nome;
-    private int energia;
-    private int forca_ataque;
-    private float forca_pulo;
-    private float velocidade;
-    private int numero_de_pe;
-    private int numero_de_maos;
+    [SerializeField]
     private string armadura;
+    [SerializeField]
     private string armas;
+    [SerializeField]
 
     public void AtribuirArmadura(string armadura)
     {
         this.armadura = armadura;
     }
 
-    public string armadura()
+    public string Armadura()
     {
         return this.armadura;
     }
     
     public void AtribuirArma(string arma)
     {
-        this.arma = arma;
+        this.armas = arma;
     }
 
-    public string arma()
+    public string Arma()
     {
-        return this.arma;
+        return this.armas;
     }
     
 }
