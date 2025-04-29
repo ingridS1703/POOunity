@@ -1,31 +1,42 @@
 using UnityEngine;
 
-public class inimigo : personagem
+public class Inimigo : Personagem
 {
-    [SerializeField]
-    private string armadura;
-    [SerializeField]
-    private string armas;
-    [SerializeField]
+    
+    public enum ArmaduraDoInimigo
+    {
+      couraça, vembraço, coxotes
+    }
 
-    public void AtribuirArmadura(string armadura)
+    public enum ArmaDoInimigo
+    {
+        espada, machado, adaga
+    }
+    
+    
+    [SerializeField]
+    private ArmaduraDoInimigo armadura;
+    [SerializeField]
+    private ArmaDoInimigo arma;
+    
+    public void AtribuirArmadura(ArmaduraDoInimigo armadura)
     {
         this.armadura = armadura;
     }
 
-    public string Armadura()
+    public ArmaduraDoInimigo Armadura()
     {
         return this.armadura;
     }
     
-    public void AtribuirArma(string arma)
+    public void AtribuirArma(ArmaDoInimigo arma)
     {
-        this.armas = arma;
+        this.arma = arma;
     }
 
-    public string Arma()
+    public ArmaDoInimigo Arma()
     {
-        return this.armas;
+        return this.arma;
     }
     
 }

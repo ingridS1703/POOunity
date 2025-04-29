@@ -8,8 +8,8 @@ public class Teste : MonoBehaviour
     
     //=================================
     
-    Personagem joao = new personagem();
-    private Inimigo ork = new inimigo();
+    Personagem joao = new Personagem();
+    private Inimigo ork = new Inimigo();
         
     void Start()
     {
@@ -55,19 +55,19 @@ public class Teste : MonoBehaviour
 
         joao.AtribuirNome("João Roberto II");
         joao.AtribuirEnergia(10);
-        joao.AtribuirForca_Ataque(12);
-        joao.AtribuirForca_do_pulo(6);
+        joao.AtribuirForca_ataque(12);
+        joao.AtribuirForca_pulo(6);
         joao.AtribuirVelocidade(8);
-        joao.AtribuirNumero_de_pes(2);
+        joao.AtribuirNumero_de_pe(2);
         joao.AtribuirNumero_de_maos(2);
         
         
         ork.AtribuirNome("Ork Gob");
         ork.AtribuirEnergia(23);
-        ork.AtribuirForca_Ataque(15);
-        ork.AtribuirForca_do_pulo(8);
+        ork.AtribuirForca_ataque(15);
+        ork.AtribuirForca_pulo(8);
         ork.AtribuirVelocidade(6);
-        ork.AtribuirNumero_de_pes(2);
+        ork.AtribuirNumero_de_pe(2);
         ork.AtribuirNumero_de_maos(4);
 
     }
