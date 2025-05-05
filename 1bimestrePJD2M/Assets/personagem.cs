@@ -27,7 +27,7 @@ public string Nome()
         return this.nome;
     }
 
-    public void AtribuirEnergia(int Energia)
+    public void AtribuirEnergia(int energia)
     {
         this.energia = energia;
     }
@@ -36,7 +36,7 @@ public string Nome()
         return this.energia;
     }
 
-    public void AtribuirForca_ataque(int Forca_ataque)
+    public void AtribuirForca_ataque(int forca_ataque)
     {
         this.forca_ataque = forca_ataque;
     }
@@ -46,7 +46,7 @@ public string Nome()
         return this.forca_ataque;
     }
     
-    public void AtribuirForca_pulo(float Forca_pulo)
+    public void AtribuirForca_pulo(float forca_pulo)
     {
         this.forca_pulo = forca_pulo;
     }
@@ -56,7 +56,7 @@ public string Nome()
         return this.forca_pulo;
     }
     
-    public void AtribuirVelocidade(float Velocidade)
+    public void AtribuirVelocidade(float velocidade)
     {
         this.velocidade = velocidade;
     }
@@ -65,7 +65,7 @@ public string Nome()
         return this.velocidade;
     }
     
-    public void AtribuirNumero_de_pe(int Numero_de_pe)
+    public void AtribuirNumero_de_pe(int numero_de_pe)
     {
         this.numero_de_pe = numero_de_pe;
     }
@@ -74,7 +74,7 @@ public string Nome()
         return this.numero_de_pe;
     }
     
-    public void AtribuirNumero_de_maos(int Numero_de_maos)
+    public void AtribuirNumero_de_maos(int numero_de_maos)
     {
         this.numero_de_maos = numero_de_maos;
     }
