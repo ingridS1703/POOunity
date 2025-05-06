@@ -444,6 +444,7 @@
 "Assets/carro.cs"
 "Assets/inimigo.cs"
 "Assets/personagem.cs"
+"Assets/Player.cs"
 "Assets/Teste.cs"
 "Assets/teste_dano.cs"
 -langversion:9.0
