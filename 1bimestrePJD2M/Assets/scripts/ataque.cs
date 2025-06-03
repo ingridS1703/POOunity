@@ -11,4 +11,4 @@ public class Ataque : MonoBehaviour
         ataque = inimigo.DanoDoInimigo();
         return ataque;
     }
-}
+} 

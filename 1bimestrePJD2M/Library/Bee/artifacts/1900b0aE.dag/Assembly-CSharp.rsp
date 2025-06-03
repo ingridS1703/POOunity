@@ -444,6 +444,7 @@
 "Assets/scripts/caminhao.cs"
 "Assets/scripts/carro.cs"
 "Assets/scripts/inimigo.cs"
+"Assets/scripts/InimigoManager.cs"
 "Assets/scripts/MovimentoInmigo.cs"
 "Assets/scripts/MovimentoPlayer.cs"
 "Assets/scripts/personagem.cs"

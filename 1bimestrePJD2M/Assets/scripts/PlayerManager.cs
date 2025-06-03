@@ -5,6 +5,7 @@ public class PlayerManager : MonoBehaviour
     public Animator animator;
     private MovimentoPlayer movimentoPlayer;
     public float velocidadeDaAnimacao = 1;
+    private Personagem personagem;
     
     void Start()
     {
@@ -19,5 +20,14 @@ public class PlayerManager : MonoBehaviour
         {
             animator.SetTrigger("Ataque");  
         }
+
+        if (Personagem.Energia() <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        
+        
+        
+        
     }
 }
